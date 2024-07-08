@@ -1,0 +1,207 @@
+/* doctordet.css */
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  .body-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container styles */
+  .hom11-details-container {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header styles */
+  .hom11-details-navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-details-navbar img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Table container styles */
+  .table-details-container {
+    margin-top: 20px;
+  }
+  
+  /* Table styles */
+  .doctor-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .doctor-details-table th, .doctor-details-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .doctor-details-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .doctor-details-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .doctor-details-table button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .doctor-details-table button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  .hom11-details-navbar {
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-button {
+    margin-left: auto; /* Push the home button to the right */
+    padding: 8px 16px;
+    background-color: #007bff; /* Adjust button styles as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+  }
+  
+  .doctor-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .doctor-details-table th, .doctor-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .doctor-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .doctor-details-table td button {
+    padding: 8px 16px;
+    background-color: #28a745; /* Adjust button styles as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .doctor-details-table td button:hover {
+    background-color: #218838; /* Adjust hover color as needed */
+  }
+
+  .doctor-details-container {
+    position: relative; /* Ensure container is positioned relative */
+    padding-top: 60px; /* Adjust padding to accommodate navbar height */
+  }
+  
+  .doctor-details-navbar {
+    position: fixed; /* Fixed positioning for navbar */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure navbar stays above other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Adjust button styles as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+  }
+  
+  .body-container {
+    padding-top: 80px; /* Adjust padding to ensure content is below navbar */
+  }
+  
+  .doctor-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .doctor-details-table th, .doctor-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .doctor-details-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .doctor-details-table td button {
+    padding: 8px 16px;
+    background-color: #28a745; /* Adjust button styles as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .doctor-details-table td button:hover {
+    background-color: #218838; /* Adjust hover color as needed */
+  }
+  
+  
