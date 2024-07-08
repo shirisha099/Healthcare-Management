@@ -1,9 +1,9 @@
-##Health Care Management
+**Health Care Management**
 
 To run frontend
 
-npm start
+***npm start***
 
 To run the both frontend and backend
 
-mvn spring-boot:run
+***mvn spring-boot:run***
